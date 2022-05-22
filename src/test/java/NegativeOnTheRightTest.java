@@ -106,11 +106,4 @@ public class NegativeOnTheRightTest {
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
-
-
-
-
-
-
-
 }

@@ -85,6 +85,4 @@ public class OddEvenTest {
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
-
-
 }

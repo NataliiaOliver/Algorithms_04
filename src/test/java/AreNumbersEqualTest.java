@@ -48,8 +48,4 @@ public class AreNumbersEqualTest {
         Assertions.assertEquals(expectedResult, actualResult);
 
     }
-
-
-
-
 }

@@ -148,10 +148,4 @@ public class MinMaxAveTest {
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
-
-
-
-
-
-
 }

@@ -110,12 +110,4 @@ public class IntersectionUniqueTest {
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
-
-
-
-
-
-
-
-
 }

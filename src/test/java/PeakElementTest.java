@@ -68,10 +68,4 @@ public class PeakElementTest {
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
-
-
-
-
-
-
 }

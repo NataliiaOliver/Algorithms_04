@@ -40,9 +40,4 @@ public class OddIndicesTest {
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
-
-
-
-
-
 }

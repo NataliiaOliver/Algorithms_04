@@ -19,5 +19,4 @@ public class BiggerValue {
 
         return max;
     }
-
 }

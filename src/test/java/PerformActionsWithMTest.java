@@ -78,8 +78,4 @@ public class PerformActionsWithMTest {
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
-
-
-
-
 }

@@ -19,8 +19,4 @@ public class OddIndices {
 
         return new int[]{};
     }
-
-
-
-
 }

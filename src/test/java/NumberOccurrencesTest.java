@@ -14,5 +14,4 @@ public class NumberOccurrencesTest {
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
-
 }

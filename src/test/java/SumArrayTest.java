@@ -90,6 +90,4 @@ public class SumArrayTest {
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
-
-
 }
