@@ -2,12 +2,6 @@ import java.util.Arrays;
 
 public class IntersectionUnique {
 
-    //Написать алгоритм Intersection, который принимает на вход 2 массива целых чисел и возвр-ет массив общих элементов.
-    //Test Data:
-    //{1, 2, 4, 5, 89}, {8, 9, 4, 2} → {2, 4}
-    //{1, 2, 4, 5, 8, 9}, {8, 9, -4, -2} → {8, 9}
-    //{1, 2, 4, 5, 89}, {8, 9, 45} → {}
-
     public int[] IntersectionUniqueAlgorithm(int[] array1, int[] array2) {
 
         if (array1.length == 0 || array2.length == 0) {
