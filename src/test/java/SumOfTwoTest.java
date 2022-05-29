@@ -32,20 +32,6 @@ public class SumOfTwoTest {
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
 
-//    @Order(4)
-//    @Test
-//    public void testSumOfTwoHappyPathPositiveNumbers1Sum() {
-//
-//        int[] array = {4, 3, 0, 12, 0, 2, 9, 4, 12};
-//        int sum = 12;
-//        int[][] expectedResult = {{3, 9}, {}};
-//
-//        SumOfTwo st = new SumOfTwo();
-//        int[][] actualResult = st.SumOfTwoAlgorithm(array, sum);
-//
-//        Assertions.assertArrayEquals(expectedResult, actualResult);
-//    }
-
     @Order(2)
     @Test
     public void testSumOfTwoHappyPathNegativeNumbers() {
