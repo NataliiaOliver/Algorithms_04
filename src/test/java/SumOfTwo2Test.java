@@ -18,19 +18,6 @@ public class SumOfTwo2Test {
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
 
-//    @Test
-//    public void testSumOfTwo2HappyPathPositiveNumbers1Sum() {
-//
-//        int[] array = {4, 3, 0, 12, 0, 2, 9, 4, 12};
-//        int sum = 12;
-//        int[][] expectedResult = {{3, 9}, {}};
-//
-//        SumOfTwo2 st = new SumOfTwo2();
-//        int[][] actualResult = st.SumOfTwo2Algorithm(array, sum);
-//
-//        Assertions.assertArrayEquals(expectedResult, actualResult);
-//    }
-
     @Order(2)
     @Test
     public void testSumOfTwo2HappyPathPositiveNumbers3Sum() {
@@ -115,21 +102,7 @@ public class SumOfTwo2Test {
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
 
-//    @Order(8)
-//    @Test
-//    public void testSumOfTwo2SumIsZero() {
-//
-//        int[] array = {4, 3, 7, 12, 5, 2, 9, 4, 12};
-//        int sum = 0;
-//        int[][] expectedResult = {{}};
-//
-//        SumOfTwo2 st = new SumOfTwo2();
-//        int[][] actualResult = st.SumOfTwo2Algorithm(array, sum);
-//
-//        Assertions.assertArrayEquals(expectedResult, actualResult);
-//    }
-
-    @Order(9)
+    @Order(8)
     @Test
     public void testSumOfTwo2ZeroArrayZeroSum() {
 
@@ -143,7 +116,7 @@ public class SumOfTwo2Test {
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
 
-    @Order(10)
+    @Order(9)
     @Test
     public void testSumOfTwo2EmptyArrayZeroSum() {
 
