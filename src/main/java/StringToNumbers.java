@@ -1,9 +1,5 @@
 public class StringToNumbers {
 
-    //Написать алгоритм StringToNumbers, который принимает строку, и возвращает массив чисел:
-    //Test Data:
-    //“1, 2, 3, 4, 5” → {1, 2, 3, 4, 5}
-    //(Без форматирования)
     public int[] stringToNumbersAlgorithm(String str) {
         if (str != null
                 && !str.isEmpty()
