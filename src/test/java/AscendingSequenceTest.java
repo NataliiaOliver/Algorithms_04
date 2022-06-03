@@ -13,7 +13,6 @@ public class AscendingSequenceTest {
     @Order(1)
     @RepeatedTest(50)
     public void testAscendingSequenceHappyPathPositiveNumbers() {
-        //0, 1, 2, 3, 4, 5
         int start = 0;
         int end = 5;
         int step = 1;
@@ -28,7 +27,6 @@ public class AscendingSequenceTest {
     @Order(2)
     @Test
     public void testAscendingSequenceHappyPathNegativeNumbers() {
-        //-10, -9, -8, -7
         int start = -10;
         int end = -7;
         int step = 1;
