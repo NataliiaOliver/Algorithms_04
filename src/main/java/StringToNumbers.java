@@ -8,7 +8,6 @@ public class StringToNumbers {
         if (str != null
                 && !str.isEmpty()
                 && str.trim().length() > 0) {
-            if (str.length() != str.trim().length()) {
                 int count = 0;
                 for (int i = 0; i < str.length(); i++) {
                     if (str.charAt(i) > 47 && str.charAt(i) < 58) {
@@ -28,7 +27,6 @@ public class StringToNumbers {
 
                 return result;
             }
-        }
 
         return new int[] {};
     }
