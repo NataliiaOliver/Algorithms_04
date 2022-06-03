@@ -4,7 +4,7 @@ public class StringToNumbers {
     //Test Data:
     //“1, 2, 3, 4, 5” → {1, 2, 3, 4, 5}
     //(Без форматирования)
-    public int[] stringToNumbers(String str) {
+    public int[] stringToNumbersAlgorithm(String str) {
         if (str != null
                 && !str.isEmpty()
                 && str.trim().length() > 0) {
