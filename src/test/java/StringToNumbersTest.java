@@ -14,4 +14,28 @@ public class StringToNumbersTest {
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
+
+    @Test
+    public void testStringToNumbersNull() {
+
+        String str = "null";
+        int[] expectedResult = {};
+
+        StringToNumbers sn = new StringToNumbers();
+        int[] actualResult = sn.stringToNumbersAlgorithm(str);
+
+        Assertions.assertArrayEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    public void testStringToNumbersEmpty() {
+
+        String str = " ";
+        int[] expectedResult = {};
+
+        StringToNumbers sn = new StringToNumbers();
+        int[] actualResult = sn.stringToNumbersAlgorithm(str);
+
+        Assertions.assertArrayEquals(expectedResult, actualResult);
+    }
 }
