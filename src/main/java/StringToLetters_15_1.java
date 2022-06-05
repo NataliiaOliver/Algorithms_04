@@ -1,9 +1,7 @@
 public class StringToLetters_15_1 {
 
     public String testStringToLettersAlgorithm(String str) {
-
         String result = "";
-
         if (str != null
                 && !str.isEmpty()
                 && str.trim().length() > 0) {
