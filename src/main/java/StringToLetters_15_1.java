@@ -1,6 +1,6 @@
 public class StringToLetters_15_1 {
 
-    public String testStringToLettersAlgorithm(String str) {
+    public String StringToLettersAlgorithm(String str) {
         String result = "";
         if (str != null
                 && !str.isEmpty()

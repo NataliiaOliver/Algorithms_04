@@ -12,7 +12,7 @@ public class StringToLetters_15_1Test {
         String expectedResult = "ghrt";
 
         StringToLetters_15_1 sl = new StringToLetters_15_1();
-        String actualResult = sl.testStringToLettersAlgorithm(str);
+        String actualResult = sl.StringToLettersAlgorithm(str);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -24,7 +24,7 @@ public class StringToLetters_15_1Test {
         String expectedResult = "";
 
         StringToLetters_15_1 sl = new StringToLetters_15_1();
-        String actualResult = sl.testStringToLettersAlgorithm(str);
+        String actualResult = sl.StringToLettersAlgorithm(str);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -36,44 +36,36 @@ public class StringToLetters_15_1Test {
         String expectedResult = "";
 
         StringToLetters_15_1 sl = new StringToLetters_15_1();
-        String actualResult = sl.testStringToLettersAlgorithm(str);
+        String actualResult = sl.StringToLettersAlgorithm(str);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
     @Test
-    public void testStringToLetters_15_1Space() {
+    public void testStringToLetters_15_1IsBorderLetters() {
 
-        String str = " ";
-        String expectedResult = "";
+        String str1 = Character.toString('A' - 1); //ASCII 64 = @
+        String expectedResult1 = "";
 
-        StringToLetters_15_1 sl = new StringToLetters_15_1();
-        String actualResult = sl.testStringToLettersAlgorithm(str);
+        String str2 = Character.toString('Z' + 1); //ASCII 91 = [
+        String expectedResult2 = "";
 
-        Assertions.assertEquals(expectedResult, actualResult);
-    }
+        String str3 = Character.toString('a' - 1); //ASCII 97 = `
+        String expectedResult3 = "";
 
-    @Test
-    public void testStringToLetters_15_1Number() {
-
-        String str = "1";
-        String expectedResult = "";
+        String str4 = Character.toString('z' + 1); //ASCII 123 = {
+        String expectedResult4 = "";
 
         StringToLetters_15_1 sl = new StringToLetters_15_1();
-        String actualResult = sl.testStringToLettersAlgorithm(str);
 
-        Assertions.assertEquals(expectedResult, actualResult);
-    }
+        String actualResult1 = sl.StringToLettersAlgorithm(str1);
+        String actualResult2 = sl.StringToLettersAlgorithm(str2);
+        String actualResult3 = sl.StringToLettersAlgorithm(str3);
+        String actualResult4 = sl.StringToLettersAlgorithm(str4);
 
-    @Test
-    public void testStringToLetters_15_1Symbol() {
-
-        String str = "$";
-        String expectedResult = "";
-
-        StringToLetters_15_1 sl = new StringToLetters_15_1();
-        String actualResult = sl.testStringToLettersAlgorithm(str);
-
-        Assertions.assertEquals(expectedResult, actualResult);
+        Assertions.assertEquals(expectedResult1, actualResult1);
+        Assertions.assertEquals(expectedResult2, actualResult2);
+        Assertions.assertEquals(expectedResult3, actualResult3);
+        Assertions.assertEquals(expectedResult4, actualResult4);
     }
 }
