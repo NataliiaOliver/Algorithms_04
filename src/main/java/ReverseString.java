@@ -1,9 +1,5 @@
 public class ReverseString {
 
-//Написать алгоритм ReverseString, который переворачивает строку:
-//Test Data:
-//“Abracadabra” → “arbadacarbA”
-
     public String ReverseStringAlgorithm(String str) {
         String result = "";
         if (str != null
